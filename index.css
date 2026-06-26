@@ -64,3 +64,7 @@ header a {
     font-weight: bold;
     color: black;
 }
+
+header a:hover {
+    color : red;
+}

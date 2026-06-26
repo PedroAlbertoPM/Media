@@ -33,6 +33,8 @@ button:hover {
     margin: auto;
 }
 
+.color-acento {color: blueviolet;}
+
 header {
     background-color: rgb(245,245,245);
 }
@@ -90,4 +92,13 @@ header a:hover {
 
 #hero h1 {
     color: white;
+}
+
+#somos-ya {
+
+}
+
+#somos-ya .container {
+    text-align: center;
+    padding: 200px 12px;
 }

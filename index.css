@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    margin: 0;
 }
 
 html {
@@ -211,6 +212,12 @@ footer .container {
 }
 
 @media(min-width:720px) {
+
+    header {
+        position: fixed;
+        width: 100%;
+    }
+
     header .container {
         flex-direction: row;
         justify-content: space-between;
@@ -220,5 +227,32 @@ footer .container {
         flex-direction: row;
         padding-bottom: 0;
         padding-right: 20px;
+    }
+
+    #somos-ya .container {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #somos-ya .texto {
+        width: 50%;
+        max-width: 600px;
+        text-align: initial;
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #somos-ya h2 {
+    margin-top: 0px;
+    }
+
+    #somos-ya .img-container {
+        background-image:url(/imagenes/somos-ya.png);
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 500px;
     }
 }
